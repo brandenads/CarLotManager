@@ -1,0 +1,235 @@
+Hello, this is Branden Aldridge, and welcome to the Car Lot
+
+The first screen is my logon page.
+
+---------------------------((Login Page))
+
+I press 1 to login.
+
+The program automatically detects if I am a customer or an employee.
+Employees are pre-entered into the database with an employee flag set to TRUE.
+Customers have their employee flag set to FALSE.
+
+I will login as Bob.
+
+*** Login name: Bob       Password: 12345678
+
+====================================================
+[[EMPLOYEE MENU]]
+====================================================
+
+---------------------------------((Adding a car to the lot))
+At the employee menu, I can select 1 to add  car to the lot.
+I will add a tesla Model X for 80000
+
+*** Make:    Tesla
+
+*** Model:   Model X
+
+*** Price:   80000
+
+I use four-digit vin numbers in this program to keep things simple.
+
+*** Vin:     1234
+
+
+---------------------((Removing a car from the lot))
+
+I can now press 2 to remove a car from the lot
+
+Cars are removed by VIN number. The program also removes any pending offers on cars
+that get removed, since they are no longer available for purchase.
+
+I will now remove the Ford Focus:
+
+*** Vin: 1333
+
+As you can see, Richard's offer on the Ford Focus has now been set to REMOVED. 
+
+
+-----------------------((Accepting offers))
+
+I can now press 3 to accept offers on cars.
+
+I will accept David's offer on the Honda Accord by entering its offerID. 
+The other two offers on the Honda Accord will be rejected automatically
+by the system.
+
+** Offer ID: 16
+
+You can see both the accepted and rejected offers.
+
+
+--------------------------((Rejecting Offers))
+
+I can now press 4 to reject an offer
+
+All offers that have been made can be seen, along with their status.
+
+I will reject David's offer on the Chevy Tahoe with Offer ID 18.
+
+The system shows that the offer has been rejected.
+
+-------------------------((View all payments))
+
+Pressing 5, I can now see all payments that have been made by customers.
+
+I have now demonstrated all employee functions. I will now press 6 to exit the
+Employee menu, and head over to the Customer menu.
+
+====================================================
+[[CUSTOMER MENU]]
+====================================================
+
+I press 1 again to login to the system. 
+
+I will demonstrate two customers: An existing customer, and I will also 
+sign up as a brand new customer. 
+
+I will log in as Linda, a longtime regular of this dealership, for now.
+
+*** Login: Linda
+
+*** Password: 12345678
+
+I am now at the customer menu.
+
+
+-------------------------------((View all cars on the lot))
+-------------------------------((Calculate monthly payents))
+
+I can press 1 to view all of the cars on the lot, 
+
+Monthly payments are also shown for the customer's convienence. The monthly payments
+are simply the car's price divided by 60.
+
+-------------------------------((Make an offer on a car)).
+
+I can press 2 to make an offer on a car.
+
+Wow, that Tesla is expennnnnn siiiiiiive! I'd like to offer 75,000.
+
+First I enter the VIN, and then the price.
+
+*** VIN:   1234
+
+*** Price: 75000
+
+The system says my offer has been recieved.
+
+
+------------------------------((View the cars that I own))
+------------------------------((View the remaining payments on a car))
+
+I can now press 3 to view the cars I own, along with a summary of payment information, which includes how many payments that I still have to make on that car.
+
+I will now press 4 to log out.
+
+-------------------------------((Sign up for a customer account))
+
+I will now press 2 to sign up for a new customer account.
+
+I will sign up Tom.
+
+*** Name: Tom
+
+*** Password: 12345678
+
+
+
+To prove it exists in the database, I will press 1 to log back in with 
+the customer's name.
+
+
+
+
+*** Name: Tom
+
+*** Password: 12345678
+
+
+======================================================================
+
+!!! SKIP SOME OR ALL OF THE STEPS BELOW IF THE TIME LIMIT RUNS OUT!!!!!
+
+======================================================================
+
+
+
+
+
+*** Press 2 on the customer menu
+
+*** VIN: 1234
+
+*** Price:  78000
+
+
+
+
+
+I will now log back in as an employee, and accept Tom's offer.
+
+Press 1 on the login menu
+
+*** Name: Bob
+
+*** Password: 12345678
+
+*** Press 3 on the Employee menu
+
+I will acept Tom's offer of 78000 on a Tesla Model X.
+
+*** Offer ID:  ///varies. look CAREFULLY for Tom and Model X in the offer list!!!
+
+As you can see, Tom's offer has been accepted, and Linda's has been rejected.
+
+
+
+
+I will now re-login as Tom to show he owns the car.
+
+*** Press 6 to exit the employee menu
+
+*** Press 1 on the login menu
+
+*** Name: Tom
+
+*** Password: 12345678
+
+*** Press 3 on the Customer menu to my cars
+
+As you can see, Tom owns the Tesla Model X.
+
+
+
+
+This concludes the demonstration of the Car Lot, and now show you my 
+tests and log files. The log files record transactions in the database.
+
+*** Show already-run coverage tests.
+
+*** Open up database logfile.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

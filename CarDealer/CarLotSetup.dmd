@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CarLotSetup" id="DB8E20FC-6B9B-EADF-A6F9-646E9C2F78BF" version="3.5">
+<createdBy>brand</createdBy>
+<createdTime>2020-07-29 03:43:33 UTC</createdTime>
+<ownerDesignName>CarLotSetup</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DB8E20FC-6B9B-EADF-A6F9-646E9C2F78BF</designId>
+</OSDM_Design>
